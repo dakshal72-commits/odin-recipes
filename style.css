@@ -1,3 +1,36 @@
 img {
     display: block;
+    margin-top  : 10px;
+    transition: transform 0.2s;
 }
+
+h1{
+    text-align: center;
+}
+ a{
+    color: black;
+    font-size: 35px;
+
+ }
+ li{
+    margin-bottom: 40px;
+ }
+
+ a:hover{
+    color: darkblue;
+    font-size: 40px;
+    img{
+        transform: scale(1.05);
+    }
+ }
+
+ img:hover{
+    transform: scale(1.05);
+ }
+ ul{
+    display: flex;
+    gap: 30px;
+ }
+ li{
+    list-style-type: none;
+ }
